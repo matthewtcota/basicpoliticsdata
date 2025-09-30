@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "BasicPoliticsData"
+  favicon: logo.png
+  
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      
+  sidebar:
+    collapse-level: 1
+    contents:
+        - href: index.qmd
+          text: Home
+
+format:
+  html:
+    theme:
+      - cerulean
+      - brand
+    css: styles.css
+    toc: true

@@ -1,0 +1,37 @@
+---
+title: ""
+---
+
+# Welcome!
+
+![](justiceIdeo_NatCt.jpeg)
+
+Data about American politics seems to be everywhere. It appears in the news, is talked about on television, discussed on podcasts, cited by organizations and politicians, and can be drawn on in everyday conversations. The accessibility of these data is another story. 
+
+Many outlets that use data to discuss politics do not make that data publicly available. Even when the data are publicly available, they are sometimes in an unfriendly format. For example, data on the Electoral College can be easily found through a simple web search. Rarely are these data provided in a ready-to-use spreadsheet, however. Instead, if a user wants to access these data, they have collect the data and input them into their own a spreadsheet.
+
+Data collection is a cost that restricts data accessibility. Basic data about American politics should be readily available in an accessible and ready-to-use format, and all too often it is not.
+
+This site hopes to help this problem. ***BasicPoliticsData*** aims to be a hub of basic data about American politics. The data are focused on American political institutions, including Congress, the presidency, and the Supreme Court. Some example of the data are partisan control of Congress, outcomes of presidential elections, ideological make up of the Supreme Court, and, of course, data on the Electoral College, so everyone can create their own electoral maps.
+
+To keep the data "basic", most datasest are relatively simple and contain only a handful of variables. As such, plotting and analyzing often involves merging different datasets together. Along with each dataset are some examples using code of how a user might plot and analyze the data.
+
+Examples of data analysis or plotting are not analytical recommendations. Users looking for recommendations of how to analyze and plot data should consult work by methodologists, such as Arel-Bundock (2025), Llaudet and Imai (2023), Gelman, Hill, and Vehtari (2021), Johnson, Ott, and Dogucu (2022), McElreath (2020), and Epstein and Martin (2014). 
+
+The figure at the top of the page is an example. The plot displays the ideological composition of the Supreme Court since John Roberts became chief justices in 2005. Each row represents the first year of a "natural court", which is a unique combination of nine justices that is formed when a new justice joins the Court. Each point denotes a justices' estimated ideology in the first year of the natural court. Color gradients on the points shift from blue to red to respectively represent shifts from liberal to conservative ideologies. The plot demonstrates the Court's ideological diversity, but also suggests the Court has become more conservative since 2005. There are many ways to plot and analyze the ideological composition of the Supreme Court. This is only one.
+
+Ultimately, I hope this site is useful to anyone interested in American politics. The inspiration for this site was sparked by a difficult day searching for a spreadsheet with Electoral College votes. As stated above, these data are readily available but not in an easily accessible and ready-to-use format. I hope this site helps fills some of these gaps in data accessibility.
+
+# References
+
+> Arel-Bundock, Vincent. Model to Meaning: How to Interpret Statistical Models with R and Python. CRC Press, 2025.
+
+> Epstein, Lee, and Andrew D. Martin. 2014. *An Introduction to Empirical Legal Research*. Oxford University Press.
+
+> Gelman, Andrew, Jennifer Hill, and Aki Vehtari. 2021. *Regression and Other Stories*. Cambridge University Press.
+
+> Johnson, Alicia A., Miles Q. Ott, and Mine Dogucu. 2022. *Bayes Rules!: An Introduction to Applied Bayesian Modeling*. Chapman and Hall/CRC.
+
+> Llaudet, Elena, and Kosuke Imai. 2023. *Data Analysis for Social Science: A Friendly and Practical Introduction*. Princeton University Press.
+
+> McElreath, Richard. 2020. *Statistical Rethinking: A Bayesian Course with Examples in R and Stan*. 2nd ed. Chapman and Hall/CRC.
